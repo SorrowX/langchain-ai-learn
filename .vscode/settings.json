@@ -74,5 +74,19 @@
     {
       "file": ".github/workflows/pr_lint.yml"
     }
-  ]
+  ],
+  "python-envs.defaultEnvManager": "ms-python.python:system",
+  "python.testing.unittestArgs": [
+    "-v",
+    "-s",
+    "./libs",
+    "-p",
+    "*test.py"
+  ],
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestArgs": [
+    "libs"
+  ],
+  "testing.defaultGutterClickAction": "debug"
 }

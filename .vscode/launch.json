@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug langchain-core test",
+      "type": "debugpy",
+      "request": "launch",
+      "python": "${workspaceFolder}/libs/core/.venv/bin/python",
+      "module": "pytest",
+      "args": [
+        "-s",
+        "-vv",
+        "tests/unit_tests/caches/test_in_memory_cache.py::test_lookup"
+      ],
+      "cwd": "${workspaceFolder}/libs/core",
+      "console": "integratedTerminal",
+      "justMyCode": false
+    },
+  ],
+}
