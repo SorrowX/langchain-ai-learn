@@ -65,7 +65,7 @@ test_integration = [
     "numpy>=2.1.0; python_version >= '3.13'",
 ]
 typing = [
-    "mypy>=2.1.0,<2.2.0",
+    "mypy>=2.1.0,<2.4.0",
     "types-tqdm>=4.66.0.5,<5.0.0.0",
 ]
 
